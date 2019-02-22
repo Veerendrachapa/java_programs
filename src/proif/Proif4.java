@@ -6,18 +6,26 @@ public class Proif4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner s = new Scanner(System.in);
-		int maximumNumber = s.nextInt();
-		int minimumNumber = s.nextInt();
+		
+		System.out.println("Program Number 5 – Check the maximum number from the given two numbers");
 
-		if (maximumNumber>minimumNumber){
-			System.out.println("The Given Input maximum number is "+maximumNumber);
+		Scanner sc=new Scanner(System.in);
+		int firstNumber=sc.nextInt();
+		int secondNumber=sc.nextInt();
 
+		if(firstNumber > secondNumber)
+		{
+			System.out.println(firstNumber +"is the maximum number");
 		}
-		if(minimumNumber<maximumNumber){
-			System.out.println("The Given Input maximum number is "+maximumNumber);
+
+		if(secondNumber > firstNumber)
+		{
+			System.out.println(secondNumber +"is the maximum number");
 		}
 
-	}
-
+		if(secondNumber == firstNumber)
+		{
+			System.out.println("Both numbers are same");
+		}
+			}
 }

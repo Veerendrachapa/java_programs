@@ -1,28 +1,15 @@
 package proif;
-
 import java.util.Scanner;
-
 public class Proif9 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-	     int x = s.nextInt();
-	     int y = s.nextInt();
-	     int z = s.nextInt();
-
-			// int x = 6;
-			// int y = 7;
-			// int z = 8;
-
-		if (x>0 && y>0 && z>0){
-
-			int d = (x+y+z)/3;
-
-			System.out.println("Avg of three values is "+d);
-
+	     int firstValue = s.nextInt();
+	     int secondValue = s.nextInt();
+	     int thirdValue = s.nextInt();
+		if (firstValue>0 && secondValue>0 && thirdValue>0){
+			int avgOfThreeValues = (firstValue+secondValue+thirdValue)/3;
+			System.out.println("Avg of three values is "+avgOfThreeValues);
 		}
-
 	}
-
 }

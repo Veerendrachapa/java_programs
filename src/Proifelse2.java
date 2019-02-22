@@ -4,18 +4,19 @@ public class Proifelse2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner s=new Scanner(System.in);
+		int majorCheck=s.nextInt();
 
-		Scanner s = new Scanner(System.in);
-
-		int input = s.nextInt();
-
-		if (input < 18) {
-			System.out.println("Person is minor");
+		if(majorCheck <=18)
+		{
+			System.out.println("Person is Minor");
 		}
+		else
+		{
+			System.out.println("Person is Major");
 
-		else {
-			System.out.println("person is Major");
-		}
+				}
 	}
 
 }

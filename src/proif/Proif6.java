@@ -6,21 +6,23 @@ public class Proif6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner s = new Scanner(System.in);
-		int value1 = s.nextInt();
-		
-		if (value1<12){
-			System.out.println("Good Morning");
-		}
-		int value2 = s.nextInt();
-		if(value2 >12 && value2 <18){
-			System.out.println("Good Afternoon");
-		}
-		int value3 = s.nextInt();
-		if(value3 >18 && value3<24){
-			System.out.println("Good Night");
-		}
-
+		Scanner sc=new Scanner(System.in);
+        int time=sc.nextInt();
+        
+        if(time<=12){
+            System.out.println("Good Monring!!");
+        }
+        
+        if(time > 12 && time < 18){
+            System.out.println("Good Afternoon!!");
+        }
+        
+        if(time >= 18 && time <= 24){
+            System.out.println("Good Night!!");
+        }
+        
+        if(time > 24){
+            System.out.println("Invalid Input, please try again!");
+        		}
 	}
-
 }
