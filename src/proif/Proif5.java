@@ -27,7 +27,9 @@ public class Proif5 {
 	        
 	        if(thirdNumber ==0)
 	        {
-	            System.out.println(thirdNumber +" is zero number");
+	            System.out.println(thirdNumber +" is zero number"
+	            		+ ""
+	            		+ "");
 	            
 	            
 		        }

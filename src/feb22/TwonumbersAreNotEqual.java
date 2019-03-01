@@ -7,7 +7,7 @@ public class TwonumbersAreNotEqual {
 static int firstNumber,secondNumber;
 	
 	boolean notEqual() {
-		if(firstNumber == secondNumber) {
+		if(firstNumber != secondNumber) {
 			return true;
 		}
 		return false;

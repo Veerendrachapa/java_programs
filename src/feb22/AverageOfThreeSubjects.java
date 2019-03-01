@@ -15,13 +15,10 @@ public class AverageOfThreeSubjects {
 		return (sub1+sub2+sub3)/3; 
 	}
 	
-      boolean threesubjects() {
-		if(sub1>0 && sub2>0 && sub3>0) {
-			return true;
-		}
-		return false;
-	}
-
+	/*
+	 * boolean threesubjects() { if(sub1>0 && sub2>0 && sub3>0) { return true; }
+	 * return false; }
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
@@ -34,10 +31,13 @@ public class AverageOfThreeSubjects {
         
         AverageOfThreeSubjects subjects = new AverageOfThreeSubjects();
         
-        System.out.println(subjects.totel());
-        System.out.println(subjects.avg());
-       System.out.println(subjects.threesubjects());
+        System.out.println("total 3 sub marks are "+subjects.totel());
+        System.out.println("three subjects avg "+subjects.avg());
         
+		/*
+		 * if(subjects.threesubjects()) {
+		 * System.out.println("Student pass the 3 subjects"); }
+		 */
 	}
 
 }
