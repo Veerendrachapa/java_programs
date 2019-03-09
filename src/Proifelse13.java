@@ -10,7 +10,7 @@ public class Proifelse13 {
 		char caseLetter = stringCase.charAt(0);
 		int asciiValue = (int) caseLetter;
 
-		if(asciiValue >=97 && asciiValue <=122){
+		if(asciiValue >='a' && asciiValue <='z'){
 			System.out.println("The letter is lower case ");
 		}
 //		else if(asciiValue >= 65 && asciiValue <= 90) {
