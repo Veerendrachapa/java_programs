@@ -8,3 +8,6 @@ public class Febpro1 {
 	}
 
 }
+
+
+//Number even or odd logic : a%2 == 0 even   a%2 !=0 odd

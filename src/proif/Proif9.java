@@ -7,7 +7,7 @@ public class Proif9 {
 	     int firstValue = s.nextInt();
 	     int secondValue = s.nextInt();
 	     int thirdValue = s.nextInt();
-		if (firstValue>0 && secondValue>0 && thirdValue>0){
+    		if (firstValue>0 && secondValue>0 && thirdValue>0){
 			int avgOfThreeValues = (firstValue+secondValue+thirdValue)/3;
 			System.out.println("Avg of three values is "+avgOfThreeValues);
 		}
